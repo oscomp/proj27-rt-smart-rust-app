@@ -44,7 +44,7 @@ RT-Thread Smart（简称rt-smart）是适用于嵌入式平台的实时操作系
 
 ### 第一题：Rust语言支持库
 
-* 编译一个最小的Rust语言程序，使之能在rt-smart操作系统上运行；
+* 编译并运行rt-smart操作系统。编译一个最小的Rust语言程序，使之能在rt-smart操作系统上运行；
 * 查阅rt-smart的文档和资料，了解其中可用的系统调用。查阅rt-smart与编译器有关的文档，了解rt-smart遵守的调用约定；
 * 选择一个系统调用的模块，制作一个封装和处理这部分系统调用的库。依赖于这个库，用户可以编写应用于rt-smart操作系统的应用程序，并使用里面的系统调用。请参考[libtock-rs](https://github.com/tock/libtock-rs)。
 
